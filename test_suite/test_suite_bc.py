@@ -2,7 +2,10 @@
 
 import os
 import sys
-sys.path.append("../")
+sys.path.append('/Users/xuchen/venv/bin')
+sys.path.append('/Users/xuchen/PycharmProjects/BCGTFA/')
+sys.path.append('/Users/xuchen/PycharmProjects/BCGTFA/test_case')
+sys.path.append('/Users/xuchen/venv/BCGTFA/bin/beautifulsoup4-4.6.3.dist-info')
 os.chdir(sys.path[0])
 
 # from test_case import firstTest
@@ -18,7 +21,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 from email.header import Header
-from email.utils import parseaddr,formataddr
+from email.utils import parseaddr, formataddr
 
 sys.path.append('/Users/xuchen/venv/BCGTFA/lib/python3.7/site-packages')
 sys.path.append('/Users/xuchen/PycharmProjects/BCGTFA')
