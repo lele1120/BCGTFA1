@@ -5,7 +5,7 @@ import sys
 sys.path.append('/Users/xuchen/venv/bin')
 sys.path.append('/Users/xuchen/PycharmProjects/BCGTFA/')
 sys.path.append('/Users/xuchen/PycharmProjects/BCGTFA/test_case')
-sys.path.append('/Users/xuchen/venv/BCGTFA/bin/beautifulsoup4-4.6.3.dist-info')
+# sys.path.append('/Users/xuchen/venv/BCGTFA/bin/beautifulsoup4-4.6.3.dist-info')
 os.chdir(sys.path[0])
 
 # from test_case import firstTest
