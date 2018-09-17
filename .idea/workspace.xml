@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db2afad5-6b60-4c4e-b654-8c2fecf14d63" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/common/module/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/email_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/email_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/testself/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/testself/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/testself/test_excel_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/testself/test_excel_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/testself/test_requests_scrip.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/testself/test_requests_scrip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/testself/test_threads_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/testself/test_threads_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/testself/test_xml_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/testself/test_xml_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/threads_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/threads_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/module/unittest_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/module/unittest_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service/excel_case_facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/service/excel_case_facade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service/suiteReporter_facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/service/suiteReporter_facade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/test_suite_bc.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_suite/test_suite_bc.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BCGTFA$suiteReporter_facade.coverage" NAME="suiteReporter_facade Coverage Results" MODIFIED="1534076632020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/service" />
+    <SUITE FILE_PATH="coverage/BCGTFA$picture_test.coverage" NAME="picture_test Coverage Results" MODIFIED="1536566732286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/BCGTFA$test_suite_bc.coverage" NAME="test_suite_bc Coverage Results" MODIFIED="1537167959003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite" />
+    <SUITE FILE_PATH="coverage/BCGTFA$aatest.coverage" NAME="aatest Coverage Results" MODIFIED="1536891190479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$Unittests_in_firstTest_py.coverage" NAME="Unittests in firstTest.py Coverage Results" MODIFIED="1537068463892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/BCGTFA$All_HTMLTest.coverage" NAME="All_HTMLTest Coverage Results" MODIFIED="1534084033525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite" />
+    <SUITE FILE_PATH="coverage/BCGTFA$test_suite_shop.coverage" NAME="test_suite_shop Coverage Results" MODIFIED="1534085558770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite" />
+    <SUITE FILE_PATH="coverage/BCGTFA$zz.coverage" NAME="zz Coverage Results" MODIFIED="1536571937600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$test_suite.coverage" NAME="test_suite Coverage Results" MODIFIED="1534076990722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite" />
+    <SUITE FILE_PATH="coverage/BCGTFA$picture_operation.coverage" NAME="picture_operation Coverage Results" MODIFIED="1536572167203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$my_operation.coverage" NAME="my_operation Coverage Results" MODIFIED="1536824397534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$my_sendmall.coverage" NAME="my_sendmall Coverage Results" MODIFIED="1536824857540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$mmtest.coverage" NAME="mmtest Coverage Results" MODIFIED="1536572415665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/BCGTFA$mmtest__1_.coverage" NAME="mmtest (1) Coverage Results" MODIFIED="1536574355503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/biz" />
+    <SUITE FILE_PATH="coverage/BCGTFA$excel_case_facade.coverage" NAME="excel_case_facade Coverage Results" MODIFIED="1535518544206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/service" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test_suite_bc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_suite/test_suite_bc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>success</find>
+      <find>name</find>
+      <find>is r</find>
+      <find>is true</find>
+      <find>check_output</find>
+      <find>Popen</find>
+      <find>getCodes</find>
+      <find>data</find>
+      <find>text</find>
+      <find>测试套件已建立</find>
+      <find>&lt;p class='attribute'&gt;&lt;strong&gt;Status:&lt;/strong&gt;</find>
+      <find>Status</find>
+      <find>lxml</find>
+      <find>stat</find>
+      <find>..</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/test_case</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_suite/test_suite.py" />
+        <option value="$PROJECT_DIR$/test_suite/All_HTMLTest.py" />
+        <option value="$PROJECT_DIR$/common/service/suiteReporter_facade.py" />
+        <option value="$PROJECT_DIR$/test_suite/test_suite_shop.py" />
+        <option value="$PROJECT_DIR$/common/integretion/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/baseinfo/__init__.py" />
+        <option value="$PROJECT_DIR$/common/service/excel_case_facade.py" />
+        <option value="$PROJECT_DIR$/biz/swipe_operation.py" />
+        <option value="$PROJECT_DIR$/test_case/picture_test.py" />
+        <option value="$PROJECT_DIR$/biz/zz.py" />
+        <option value="$PROJECT_DIR$/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/test_case/mmtest.py" />
+        <option value="$PROJECT_DIR$/biz/picture_operation.py" />
+        <option value="$PROJECT_DIR$/biz/mmtest.py" />
+        <option value="$PROJECT_DIR$/report/2018-09-12-13-37-bc_gui_andorid.html" />
+        <option value="$PROJECT_DIR$/report/2018-09-12-13-11-bc_gui_andorid.html" />
+        <option value="$PROJECT_DIR$/report/2018-09-13-14-28-bc_gui_andorid.html" />
+        <option value="$PROJECT_DIR$/biz/my_operation.py" />
+        <option value="$PROJECT_DIR$/biz/my_sendmall.py" />
+        <option value="$PROJECT_DIR$/biz/aatest.py" />
+        <option value="$PROJECT_DIR$/common/module/__init__.py" />
+        <option value="$PROJECT_DIR$/test_suite/Main.py" />
+        <option value="$PROJECT_DIR$/test_case/firstTest.py" />
+        <option value="$PROJECT_DIR$/common/module/excel_module.py" />
+        <option value="$PROJECT_DIR$/test_suite/test_suite_bc.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="56" />
+    <option name="y" value="40" />
+    <option name="width" value="1506" />
+    <option name="height" value="783" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="excel_module.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+              <item name="test_suite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BCGTFA" type="462c0819:PsiDirectoryNode" />
+              <item name="test_suite" type="462c0819:PsiDirectoryNode" />
+              <item name="test_suite_bc.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="BCGTFA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (BCGTFA) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xuchen/PycharmProjects/BCGTFA/test_case/picture_test.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/biz" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/common/integretion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/biz" />
+      <recent name="$PROJECT_DIR$/test_case" />
+      <recent name="$PROJECT_DIR$/common/module" />
+      <recent name="$PROJECT_DIR$/common/integretion" />
+      <recent name="$PROJECT_DIR$/common/service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_suite_bc">
+    <configuration name="aatest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BCGTFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/biz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biz/aatest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="my_operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BCGTFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/biz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biz/my_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="my_sendmall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BCGTFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/biz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biz/my_sendmall.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_suite_bc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BCGTFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_suite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_suite/test_suite_bc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests in firstTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="BCGTFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/firstTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests in firstTest.py" />
+      <item itemvalue="Python.test_suite_bc" />
+      <item itemvalue="Python.my_sendmall" />
+      <item itemvalue="Python.my_operation" />
+      <item itemvalue="Python.aatest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_suite_bc" />
+        <item itemvalue="Python tests.Unittests in firstTest.py" />
+        <item itemvalue="Python.aatest" />
+        <item itemvalue="Python.my_sendmall" />
+        <item itemvalue="Python.my_operation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db2afad5-6b60-4c4e-b654-8c2fecf14d63" name="Default" comment="" />
+      <created>1534054524343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534054524343</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1537070273273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537070273273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test122222">
+      <created>1537070392652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537070392652</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1537171359836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537171359836</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1537173447378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537173447378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.12 at 17h 13m 15s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.12 at 17h 14m 50s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.12 at 17h 19m 01s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.12 at 17h 46m 43s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.12 at 17h 50m 36s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.13 at 10h 12m 59s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.13 at 10h 14m 31s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.13 at 10h 17m 33s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.13 at 17h 14m 09s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_firstTest_py - 2018.09.16 at 11h 28m 09s.xml">
+      <configuration name="Unittests in firstTest.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="56" y="40" width="1506" height="783" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.5020492" side_tool="true" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49795082" weight="0.40670553" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49795082" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32983682" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4981685" weight="0.23469388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24931695" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3962704" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983682" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test12" />
+    <MESSAGE value="test122222" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/biz/text2.png" />
+    <entry file="file://$PROJECT_DIR$/biz/picture_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-11-13-47-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/test_case/picture_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/BCGTFA/lib/python3.7/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/BCGTFA/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-11-15-00-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-11-13-49-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-12-13-37-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/common/module/unittest_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-12-13-11-bc_gui_andorid.html" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/email/mime/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/mmtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/service/excel_case_facade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/my_operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/my_sendmall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-15-13-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-15-51-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-15-57-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-16-28-bc_gui_andorid.html" />
+    <entry file="file://$USER_HOME$/venv/BCGTFA/lib/python3.7/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1622874368/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1969">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-17-14-bc_gui_andorid.html" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1622874368/lxml/etree/_Element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="377" column="8" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-13-14-28-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/report/2018-09-14-10-07-bc_gui_andorid.html" />
+    <entry file="file://$PROJECT_DIR$/biz/aatest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/integretion/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_suite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/yzm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2018-09-14-10-08-bc_gui_andorid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2762">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="873" selection-start-line="873" selection-end-line="873" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseinfo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_suite/Main.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/mmtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/firstTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/module/excel_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/module/email_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/module/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_suite/test_suite_bc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
