@@ -6,6 +6,7 @@ from common.integretion import HTMLTestRunner
 
 
 class Unittest_Module:
+
     def __init__(self):
         self.suite = self.make_suite()
         self.__loader = unittest.TestLoader()

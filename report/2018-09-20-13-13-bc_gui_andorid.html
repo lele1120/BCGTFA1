@@ -5,11 +5,13 @@
     <title>BICAI_GUI_FOR_ANDROID</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-pre         { }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
 
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
@@ -189,9 +191,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>BICAI_GUI_FOR_ANDROID</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-09-14 13:49:39</p>
-<p class='attribute'><strong>Duration:</strong> 0:03:55.195589</p>
-<p class='attribute'><strong>Status:</strong> Pass 13</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-09-20 13:13:55</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:36.762848</p>
+<p class='attribute'><strong>Status:</strong> Pass 2</p>
 
 <p class='description'>autotest_gui_android</p>
 </div>
@@ -199,9 +201,9 @@ function showOutput(id, name) {
 
 
 <p id='show_detail_line'>Show
-<a href='javascript:showCase(0)'>Summary</a>
-<a href='javascript:showCase(1)'>Failed</a>
-<a href='javascript:showCase(2)'>All</a>
+<a href='javascript:showCase(0)' class="btn btn-xs btn-primary">Summary</a>
+<a href='javascript:showCase(1)' class="btn btn-xs btn-danger">Failed</a>
+<a href='javascript:showCase(2)' class="btn btn-xs btn-info">All</a>
 </p>
 <table id='result_table'>
 <colgroup>
@@ -219,89 +221,106 @@ function showOutput(id, name) {
     <td>Fail</td>
     <td>Error</td>
     <td>View</td>
+     <td>Screenshot</td>
 </tr>
 
 <tr class='passClass'>
     <td>test_case.firstTest.MyTestCase</td>
-    <td>13</td>
-    <td>13</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',13)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>&nbsp;</td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_bc_01: 已登录状态下，状态验证</div></td>
-    <td colspan='5' align='center'>pass</td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: img/123.png
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+     <td align='center'>
+    <a href="" title="">
+    <img src="/Users/xuchen/PycharmProjects/BCGTFA/test_suite/images/123.png" height=10 width=10 border=0/></img>
+    </a>
+
+    </td>
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_bc_02: 排行榜按钮点击跳转</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+    <td colspan='5' align='center'>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_03: 排行榜返回icon点击</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
 
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_04: 排行榜中货币基金导航栏按钮点击跳转</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 
 
-<tr id='pt1.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_05: 货币基金右上角搜索图标点击</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+Actual:
+货币基金
+Expect:
+货币基金
 
-<tr id='pt1.6' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_06: 输入货币基金产品名称查看搜索结果</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
 
-<tr id='pt1.7' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_07: 排行榜中理财产品导航栏按钮点击跳转</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+Actual:
+理财产品
+Expect:
+理财产品
 
-<tr id='pt1.8' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_08: 理财产品右上角搜索图标点击</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
 
-<tr id='pt1.9' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_09: 输入理财产品名称查看搜索结果</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+Actual:
+纯债基金
+Expect:
+纯债基金
 
-<tr id='pt1.10' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_10: 排行榜中理财产品导航栏按钮点击跳转</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
 
-<tr id='pt1.11' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_11: 纯债基金右上角搜索图标点击</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+        </pre>
+    </div>
+    <!--css div popup end-->
 
-<tr id='pt1.12' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_12: 输入纯债基金产品名称查看搜索结果</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
+    </td>
+     <td align='center'>
+    <a href="" title="">
+    <img src="/Users/xuchen/PycharmProjects/BCGTFA/test_suite/images/123.png" height=10 width=10 border=0/></img>
+    </a>
 
-<tr id='pt1.13' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_bc_13: 点击比收益按钮</div></td>
-    <td colspan='5' align='center'>pass</td>
+    </td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>13</td>
-    <td>13</td>
-    <td>0</td>
-    <td>0</td>
-    <td>&nbsp;</td>
+    <td>2</td>
+    <td class="text text-success">2</td>
+    <td class="text text-danger">0</td>
+    <td class="text text-warning">0</td>
+    <td class="text text-warning">&nbsp;</td>
+    <td class="text text-warning"><a href="" target="_blank"></a></td>
 </tr>
 </table>
 

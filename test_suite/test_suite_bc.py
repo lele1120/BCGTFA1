@@ -61,7 +61,7 @@ sender = '357072695@qq.com'
 pwd = 'eqaykvvzbsoebjdc'
 # receiver='xuchen@bicai365.com'
 # 接收人
-receiver= ['357072695@qq.com', 'zhaodongshuai@bicai365.com']
+receiver= ['357072695@qq.com', 'xuchen@bicai365.com']
 
 # 格式化的署名和接收人信息
 message = MIMEMultipart()
