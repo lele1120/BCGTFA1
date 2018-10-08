@@ -95,6 +95,7 @@ att1["Content-Type"] = 'application/octet-stream'
 # 这里的filename可以任意写，写什么名字，邮件中显示什么名字
 att1["Content-Disposition"] = 'attachment; filename="bc_gui_andorid.html"'
 message.attach(att1)
+# 1231231231
 
 # 发送邮件！
 
