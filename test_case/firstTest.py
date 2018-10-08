@@ -104,7 +104,6 @@ class MyTestCase(unittest.TestCase):
         # driver.save_screenshot(imgPath)
         # print('img/' +str(sys._getframe().f_code.co_name) + '.png')
 
-
     def test_bc_02(self):
         """排行榜按钮点击跳转"""
         mo().my_Click(driver, "id", 9)
